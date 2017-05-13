@@ -14,11 +14,6 @@ public class Car extends Vehicle {
         super.kilometerPerHour = kilometerPerHour;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.abstractfactory.product.Vehicle#saySpeed()
-     */
     @Override
     public void saySpeed() {
         System.out.println("The car's speed is about " + kilometerPerHour + " km/h.");

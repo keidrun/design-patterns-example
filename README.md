@@ -17,6 +17,8 @@ Examples of Design Patterns.
 |                  |                  |               | Strategy                |
 |                  |                  |               | Visitor                 |
 
-## Reference
+## References
 - [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns "Design Patterns")
 - [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern "Software design pattern")
+- [DesignPatterns](http://wiki.c2.com/?DesignPatterns "DesignPatterns")
+- [Patterns Home Page](http://hillside.net/patterns/ "Patterns Home Page")

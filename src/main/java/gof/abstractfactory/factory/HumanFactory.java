@@ -18,7 +18,7 @@ public abstract class HumanFactory {
         try {
             factory = (HumanFactory) Class.forName(className).newInstance();
         } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
-            e.printStackTrace();
+            throw new IllegalArgumentException(e);
         }
         return factory;
     }

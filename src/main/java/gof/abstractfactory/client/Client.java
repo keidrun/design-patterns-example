@@ -17,7 +17,7 @@ public class Client {
     public static void main(String[] args) {
 
         // Create bodyguard's weapon and vehicle.
-        System.out.println("Bodyguard:");
+        System.out.println("=== Bodyguard ===");
         HumanFactory factory = HumanFactory.getFactory("gof.abstractfactory.factory.BodyguardFactory");
         Weapon weapon = factory.createWeapon();
         weapon.attack();
@@ -25,7 +25,7 @@ public class Client {
         vehicle.saySpeed();
 
         // Create knight's weapon and vehicle.
-        System.out.println("Knight:");
+        System.out.println("=== Knight ===");
         factory = HumanFactory.getFactory("gof.abstractfactory.factory.KnightFactory");
         weapon = factory.createWeapon();
         weapon.attack();
@@ -33,7 +33,7 @@ public class Client {
         vehicle.saySpeed();
 
         // Create millennial generation's weapon and vehicle.
-        System.out.println("Millennial Generation:");
+        System.out.println("=== Millennial Generation ===");
         factory = HumanFactory.getFactory("gof.abstractfactory.factory.MillennialFactory");
         weapon = factory.createWeapon();
         weapon.attack();
