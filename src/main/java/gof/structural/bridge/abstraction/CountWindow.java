@@ -12,16 +12,13 @@ import gof.structural.bridge.implementor.WindowImpl;
  */
 public class CountWindow extends Window {
 
-    /**
-     * @param impl
-     */
     public CountWindow(WindowImpl impl) {
         super(impl);
     }
 
     public void multiDraw(int times) {
         open();
-        for(int i=0; i<times; i++) {
+        for (int i = 0; i < times; i++) {
             print();
         }
         close();

@@ -20,31 +20,16 @@ public class File extends Entry {
         this.size = size;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.composite.component.Entry#name()
-     */
     @Override
     public String name() {
         return name;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.composite.component.Entry#size()
-     */
     @Override
     public int size() {
         return size;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.composite.component.Entry#printList(java.lang.String)
-     */
     @Override
     public void printList(String prefix) {
         System.out.println(prefix + "/" + this);

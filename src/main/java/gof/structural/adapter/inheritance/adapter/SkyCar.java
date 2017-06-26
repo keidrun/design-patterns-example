@@ -13,11 +13,6 @@ import gof.structural.adapter.inheritance.target.Car;
  */
 public class SkyCar extends Airplane implements Car {
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.adapter.inheritance.target.Car#run()
-     */
     @Override
     public void run() {
         System.out.println("[inheritance]'run' start.");
@@ -25,11 +20,6 @@ public class SkyCar extends Airplane implements Car {
         System.out.println("[inheritance]'run' done.");
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.adapter.inheritance.target.Car#stop()
-     */
     @Override
     public void stop() {
         System.out.println("[inheritance]'load' start.");

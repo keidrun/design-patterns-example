@@ -15,11 +15,6 @@ public class SkyCar extends Car {
 
     private Airplane plane = new Airplane();
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.adapter.composition.target.Car#run()
-     */
     @Override
     public void run() {
         System.out.println("[composition]'run' start.");
@@ -27,11 +22,6 @@ public class SkyCar extends Car {
         System.out.println("[composition]'run' done.");
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.adapter.composition.target.Car#stop()
-     */
     @Override
     public void stop() {
         System.out.println("[composition]'stop' start.");

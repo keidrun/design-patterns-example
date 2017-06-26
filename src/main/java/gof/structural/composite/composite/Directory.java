@@ -23,21 +23,11 @@ public class Directory extends Entry {
         this.name = name;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.composite.component.Entry#name()
-     */
     @Override
     public String name() {
         return this.name;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.composite.component.Entry#size()
-     */
     @Override
     public int size() {
         int size = 0;
@@ -55,17 +45,12 @@ public class Directory extends Entry {
         return this;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see gof.structural.composite.component.Entry#printList(java.lang.String)
-     */
     @Override
     public void printList(String prefix) {
         System.out.println(prefix + "/" + this);
         Iterator<Entry> it = directory.listIterator();
         while (it.hasNext()) {
-            Entry entry = (Entry)it.next();
+            Entry entry = (Entry) it.next();
             entry.printList(prefix + "/" + name);
         }
     }
