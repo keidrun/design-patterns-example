@@ -5,15 +5,15 @@ Examples of Design Patterns.
 ## Classification of Design Patterns
 |                  | Creational       | Structural    | Behavioral              |
 |-----------------:|:-----------------|:--------------|:------------------------|
-| Class (Static)   | Factory Method   | Adapter       | Interpreter             |
+| Class (Static)   | [Factory Method](/src/main/java/gof/creational/factorymethod)   | [Adapter](/src/main/java/gof/structural/adapter/inheritance)       | Interpreter             |
 |                  |                  |               | Template Method         |
-| Object (Dynamic) | Abstract Factory | Adapter       | Chain of Responsibility |
-|                  | Builder          | Bridge        | Command                 |
-|                  | Prototype        | Composite     | Iterator                |
-|                  | Singleton        | Decorator     | Mediator                |
-|                  |                  | Facade        | Memento                 |
-|                  |                  | Flyweight     | Observer                |
-|                  |                  | Proxy         | State                   |
+| Object (Dynamic) | [Abstract Factory](/src/main/java/gof/creational/abstractfactory) | [Adapter](/src/main/java/gof/structural/adapter/composition)       | Chain of Responsibility |
+|                  | [Builder](/src/main/java/gof/creational/builder)          | [Bridge](/src/main/java/gof/structural/bridge)        | Command                 |
+|                  | [Prototype](/src/main/java/gof/creational/prototype)        | [Composite](/src/main/java/gof/structural/composite)     | Iterator                |
+|                  | [Singleton](/src/main/java/gof/creational/singleton)        | [Decorator](/src/main/java/gof/structural/decorator)     | Mediator                |
+|                  |                  | [Facade](/src/main/java/gof/structural/facade)        | Memento                 |
+|                  |                  | [Flyweight](/src/main/java/gof/structural/flyweight)     | Observer                |
+|                  |                  | [Proxy](/src/main/java/gof/structural/proxy)         | State                   |
 |                  |                  |               | Strategy                |
 |                  |                  |               | Visitor                 |
 
